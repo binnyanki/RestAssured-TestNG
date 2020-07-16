@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Practice {
 
-	private String cake;
+	private String name;
 	private int id;
 	private String type;
 	private float ppu;
@@ -12,10 +12,10 @@ public class Practice {
 	private List<topping> topping;
 	
 	public String getCake() {
-		return cake;
+		return name;
 	}
 	public void setCake(String cake) {
-		this.cake = cake;
+		this.name = cake;
 	}
 	public int getId() {
 		return id;
